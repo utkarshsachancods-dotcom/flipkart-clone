@@ -702,7 +702,14 @@ html, body { width: 100%; overflow-x: hidden; margin: 0; padding: 0; }
   }
 }
 
-
+/* MOBILE FIX - ONLY ADD AT BOTTOM */
+@media (max-width: 768px) {
+  .navbar { flex-wrap: wrap !important; padding: 10px !important; gap: 10px !important; }
+  .nav-search { order: 3; width: 100% !important; }
+  .nav-search input { width: 100% !important; }
+  .categories { overflow-x: auto !important; justify-content: flex-start !important; flex-wrap: nowrap !important; gap: 15px !important; }
+  .categories::-webkit-scrollbar { display: none; }
+}
 
 
 
