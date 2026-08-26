@@ -702,6 +702,71 @@ html, body { width: 100%; overflow-x: hidden; margin: 0; padding: 0; }
   }
 }
 
+/* ===== FINAL FIX FOR YOUR PHOTO - BINA DESKTOP MODE KE ===== */
+@media (max-width: 768px) {
+  html, body { width: 100% !important; overflow-x: hidden !important; }
+
+  /* 1. Navbar - logo cut ho raha tha */
+  .navbar {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 8px 10px !important;
+  }
+  .nav-search { display: none !important; } /* Mobile pe Flipkart me bhi search hide hota hai */
+  .nav-item { font-size: 14px !important; margin-left: 10px !important; }
+
+  /* 2. Category - GroceryMobiles chipak raha tha */
+  .categories, .category-section, .cat-container {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    gap: 18px !important;
+    padding: 12px 10px !important;
+    justify-content: flex-start !important;
+  }
+  .categories::-webkit-scrollbar { display: none; }
+  .categories > div, .categories .cat-item {
+    min-width: 70px !important;
+    flex-shrink: 0 !important;
+    text-align: center !important;
+  }
+
+  /* 3. Deals of the Day - ye sabse important hai, tere photo me yahi phata hai */
+  .deals, .deals-section, .products-section {
+    width: 95% !important;
+    margin: 10px auto !important;
+    overflow: hidden !important;
+  }
+  .deals > div:last-child, .product-grid, .deal-products {
+    display: flex !important;
+    overflow-x: auto !important;
+    gap: 12px !important;
+    padding-bottom: 10px !important;
+    grid-template-columns: unset !important;
+  }
+  .deals > div:last-child > div, .product-grid > div, .card, .product-card {
+    min-width: 135px !important;
+    max-width: 135px !important;
+    flex-shrink: 0 !important;
+    border: 1px solid #e0e0e0 !important;
+    padding: 10px !important;
+  }
+  .card img, .product-card img { width: 100% !important; height: 110px !important; object-fit: contain !important; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* MOBILE FIX - ONLY ADD AT BOTTOM */
 @media (max-width: 768px) {
   .navbar { flex-wrap: wrap !important; padding: 10px !important; gap: 10px !important; }
