@@ -152,7 +152,16 @@ body{background:#f1f2f4;color:#212121}
   }
 }
 
-
+/* Phone fix */
+.categories, .category-section {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding-bottom: 10px;
+}
+.categories::-webkit-scrollbar {
+  display: none;
+}
 
 
 
