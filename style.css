@@ -656,7 +656,51 @@ footer {
 .offer-banner h3 {
   color: #2874f0;
 }
+/* ===== Flipkart Final Mobile Fix ===== */
+* { box-sizing: border-box; }
+html, body { width: 100%; overflow-x: hidden; margin: 0; padding: 0; }
 
+@media (max-width: 768px) {
+  nav, .navbar, header {
+    flex-direction: column !important;
+    gap: 10px !important;
+    padding: 10px !important;
+    width: 100% !important;
+  }
+
+  .search-bar, .search {
+    width: 95% !important;
+  }
+  .search-bar input, .search input {
+    width: 100% !important;
+  }
+
+  .categories, .category-container {
+    display: flex !important;
+    overflow-x: auto !important;
+    flex-wrap: nowrap !important;
+    gap: 15px !important;
+    padding: 10px !important;
+  }
+
+  .products, .product-container, .product-grid, .container {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+    padding: 10px !important;
+    width: 100% !important;
+  }
+
+  .product-card, .card, .item {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .banner img, .slider img {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
 
 
 
