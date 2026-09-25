@@ -1,7 +1,7 @@
 *{margin:0;padding:0;box-sizing:border-box;font-family:Inter,Roboto,Arial,sans-serif}
 body{background:#f1f2f4;color:#212121;overflow-x:hidden}
 
-/* HEADER */
+
 .top-header{background:#2874f0;position:sticky;top:0;z-index:100;padding:10px 16px}
 .header-container{display:flex;align-items:center;gap:20px;max-width:1280px;margin:0 auto}
 .logo{font-size:20px;font-weight:800;font-style:italic;color:#fff;line-height:14px}
@@ -12,14 +12,14 @@ body{background:#f1f2f4;color:#212121;overflow-x:hidden}
 .login-button{background:#fff;color:#2874f0;border:none;padding:7px 32px;border-radius:2px;font-weight:700;cursor:pointer}
 .header-link,.cart-button{color:#fff;font-weight:600;font-size:14px;white-space:nowrap;cursor:pointer}
 
-/* CATEGORY */
+
 .category-navigation{background:#fff;display:flex;justify-content:space-around;padding:12px 10px;box-shadow:0 1px 2px rgba(0,0,0,.1);overflow-x:auto}
 .category-navigation::-webkit-scrollbar{display:none}
 .category{text-align:center;min-width:75px;cursor:pointer}
 .category-image{font-size:28px}
 .category p{font-size:12px;font-weight:600;margin-top:4px}
 
-/* HERO */
+
 .hero-section{background:linear-gradient(90deg,#0a8af0,#0066ff);margin:10px 12px;border-radius:4px;display:flex;justify-content:space-between;align-items:center;padding:45px 40px;color:#fff}
 .hero-small{font-size:11px;letter-spacing:2px;opacity:.9;margin-bottom:10px}
 .hero-content h1{font-size:42px;line-height:46px;font-weight:800;margin-bottom:12px}
@@ -28,14 +28,14 @@ body{background:#f1f2f4;color:#212121;overflow-x:hidden}
 .hero-products{display:flex;gap:20px;align-items:center}
 .hero-circle{width:110px;height:110px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:50px;box-shadow:0 6px 20px rgba(0,0,0,.2)}
 
-/* OFFER STRIP */
+
 .offer-strip{background:#fff;display:flex;justify-content:space-between;margin:0 12px;padding:16px 20px;border-radius:4px;box-shadow:0 1px 2px rgba(0,0,0,.1)}
 .offer-box{display:flex;align-items:center;gap:10px}
 .offer-icon{font-size:22px;background:#f0f5ff;padding:8px;border-radius:50%}
 .offer-box h3{font-size:13px}
 .offer-box p{font-size:11px;color:#666}
 
-/* PRODUCT SECTION */
+
 .product-section{background:#fff;margin:12px;border-radius:4px;padding:16px;box-shadow:0 1px 2px rgba(0,0,0,.1)}
 .section-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;border-bottom:1px solid #f0f0f0;padding-bottom:12px}
 .section-header h2{font-size:18px}
@@ -52,7 +52,7 @@ body{background:#f1f2f4;color:#212121;overflow-x:hidden}
 .price span{font-size:12px;color:#878787;text-decoration:line-through;margin-left:6px;font-weight:400}
 .product-offer{font-size:11px;color:#388e3c;margin-top:4px;font-weight:600}
 
-/* FASHION BANNER */
+
 .fashion-banner{margin:12px;background:linear-gradient(90deg,#ff5a5a,#ff8a00);border-radius:4px;color:#fff;display:flex;justify-content:space-between;align-items:center;padding:30px 40px}
 .fashion-banner p{font-size:11px;letter-spacing:2px}
 .fashion-banner h2{font-size:36px;line-height:38px;margin:8px 0}
@@ -60,14 +60,14 @@ body{background:#f1f2f4;color:#212121;overflow-x:hidden}
 .fashion-banner button{background:#fff;border:none;padding:10px 20px;border-radius:2px;font-weight:700;cursor:pointer}
 .fashion-emoji{font-size:42px;letter-spacing:10px}
 
-/* BRANDS */
+
 .brands-section{background:#fff;margin:12px;border-radius:4px;padding:16px;box-shadow:0 1px 2px rgba(0,0,0,.1)}
 .brand-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-top:10px}
 .brand-box{border:1px solid #f0f0f0;border-radius:4px;padding:20px;text-align:center;background:#fafafa}
 .brand-box h2{font-size:14px}
 .brand-box p{font-size:11px;color:#666;margin-top:4px}
 
-/* SMALL BANNERS */
+
 .small-banners{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:12px}
 .small-banner{border-radius:4px;padding:24px;color:#fff}
 .small-banner p{font-size:10px;letter-spacing:2px;opacity:.9}
@@ -78,7 +78,7 @@ body{background:#f1f2f4;color:#212121;overflow-x:hidden}
 .orange-banner{background:linear-gradient(90deg,#ff9800,#ff5722)}
 .green-banner{background:linear-gradient(90deg,#43a047,#8bc34a)}
 
-/* REVIEWS */
+
 .reviews-section{background:#fff;margin:12px;border-radius:4px;padding:24px;box-shadow:0 1px 2px rgba(0,0,0,.1)}
 .section-title-center{text-align:center;margin-bottom:20px}
 .section-title-center h2{font-size:20px}
@@ -90,7 +90,7 @@ body{background:#f1f2f4;color:#212121;overflow-x:hidden}
 .review-card h4{font-size:13px;margin-top:10px}
 .review-card span{font-size:11px;color:#878787}
 
-/* NEWSLETTER */
+
 .newsletter{margin:12px;background:#2874f0;border-radius:4px;padding:30px;text-align:center;color:#fff}
 .newsletter h2{font-size:22px;margin-bottom:6px}
 .newsletter p{font-size:13px;opacity:.9;margin-bottom:14px}
@@ -98,14 +98,14 @@ body{background:#f1f2f4;color:#212121;overflow-x:hidden}
 .newsletter-form input{flex:1;padding:11px 14px;border-radius:2px;border:none;outline:none}
 .newsletter-form button{background:#ffe500;border:none;padding:11px 20px;border-radius:2px;font-weight:700;cursor:pointer}
 
-/* FOOTER */
+
 .main-footer{background:#172337;display:grid;grid-template-columns:repeat(6,1fr);gap:20px;padding:30px 25px}
 .footer-column h3{color:#878787;font-size:12px;margin-bottom:12px}
 .footer-column a{color:#fff;display:block;font-size:12px;line-height:24px;text-decoration:none}
 .footer-column a:hover{text-decoration:underline}
 .footer-bottom{background:#172337;border-top:1px solid #454d5e;color:#fff;display:flex;justify-content:space-around;padding:16px;font-size:12px;flex-wrap:wrap;gap:10px}
 
-/* MOBILE RESPONSIVE - FINAL FIX */
+
 @media(max-width:900px){
   .product-grid{grid-template-columns:repeat(3,1fr)}
   .brand-grid{grid-template-columns:repeat(3,1fr)}
@@ -139,9 +139,5 @@ body{background:#f1f2f4;color:#212121;overflow-x:hidden}
   .footer-bottom{flex-direction:column;text-align:center}
   .reviews-section{margin:8px;width:auto}
 }
-
-
-
-
 
 
